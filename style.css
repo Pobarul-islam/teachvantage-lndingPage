@@ -1,0 +1,495 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Secular+One&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: -1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #1d1d1d;
+}
+
+.logo {
+  font-family: "Secular One", sans-serif;
+}
+
+.btn {
+  border: 1px solid;
+  display: inline-block;
+  padding: 10px 27px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.btn.primary-btn {
+  border-radius: 5px;
+  background: #1361f5;
+  border-color: #1361f5;
+  color: #fff;
+}
+
+.btn.secondary-btn {
+  border: 1px solid #e0e0e0;
+  color: #1361f5;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header .container,
+.hero .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-text p {
+  margin-bottom: 45px;
+}
+.header {
+  padding: 28px;
+  height: 80vh;
+}
+.mainmenu ul li a {
+  display: flex;
+}
+
+.mainmenu ul {
+  display: flex;
+}
+
+.mainmenu li {
+  margin-left: 30px;
+}
+.mainmenu li a {
+  display: inline-block;
+  padding: 15px;
+  text-decoration: none;
+  color: #1d1d1d;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.mainmenu li.get-started-link a {
+  border-radius: 5px;
+  background: #1361f5;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+.mainmenu li.login-link a {
+  color: #094bca;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.hero-text h2 {
+  color: #1d1d1d;
+  font-size: 48px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: -1px;
+}
+
+/* benefits section  */
+.benefits-section {
+  height: 25vh;
+}
+
+.benefits-section .container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+}
+
+.service {
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 1px 2px 15px 0px rgba(0, 0, 0, 0.15);
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.service h2 {
+  color: #223140;
+  font-size: 18px;
+  font-family: Inter;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.benefits-text p {
+  color: #535558;
+  font-size: 14px;
+  font-family: ITF Devanagari Marathi;
+  line-height: 22px;
+}
+
+.benefits-text h3 {
+  color: #223140;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+/* Streamline section   */
+
+.streamline-text {
+  text-align: center;
+  margin: 50px;
+}
+.streamline-text h2 {
+  color: #1d1d1d;
+  text-align: center;
+  font-size: 32px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: -1px;
+}
+
+.streamline-text p {
+  margin-inline: 50px;
+  padding: 25px;
+  color: #223140;
+  text-align: center;
+  font-size: 18px;
+  font-family: Inter;
+  line-height: 32px;
+  letter-spacing: -1px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.first-function h5 {
+  color: #094bca;
+  font-size: 18px;
+  font: bold;
+  line-height: 50px;
+  letter-spacing: -1px;
+}
+
+.first-function h3 {
+  color: #1d1d1d;
+  font-size: 26px;
+  font-family: Inter;
+  font-weight: bold;
+  line-height: 50px;
+  letter-spacing: -1px;
+  line-height: 80px;
+}
+
+.first-function a {
+  margin-top: 20px;
+}
+.first-function p {
+  color: #223140;
+  font-size: 18px;
+  font-family: Inter;
+  line-height: 32px;
+  letter-spacing: -1px;
+}
+
+.func-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 60px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.reactangle-2 {
+  display: flex;
+  gap: 20px;
+}
+
+/* ==========================  */
+
+.reactangle-section {
+  background-color: #fbfbfb;
+  padding: 20px;
+  margin-bottom: 2rem;
+}
+.box-img {
+  width: 60%;
+  height: 70px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.box-2 {
+  margin-top: 3rem;
+}
+
+.box-3 {
+  margin-top: 1.5rem;
+}
+
+/* ===========================  */
+
+.customer-section {
+  margin-top: 3rem;
+  height: 80vh;
+  margin-bottom: 3rem;
+}
+
+.customer-headline {
+  text-align: center;
+}
+
+/* =========================  */
+
+.testimonial {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 5rem;
+  background-color: white;
+}
+
+.rectangle-div {
+  border-radius: 10px;
+  box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  background-color: #fff;
+  height: 348px;
+}
+
+.avatar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  margin-top: -35px;
+}
+
+.techvantage-has-transformed-container {
+  position: relative;
+  font-size: 14px;
+  line-height: 22px;
+  font-family: var(--font-itf-devanagari-marathi);
+  color: #535558;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.techvantage {
+  position: relative;
+  font-size: 24px;
+  letter-spacing: -0.29px;
+  font-family: var(--font-secular-one);
+  color: #d9d9d9;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.john-smith-ceo {
+  position: relative;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: #223140;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/* stat  */
+
+.b {
+  position: relative;
+  font-size: 32px;
+  letter-spacing: -1px;
+  line-height: 50px;
+  font-family: var(--font-inter);
+  color: #094bca;
+}
+
+.content11 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: center;
+  text-align: center;
+  height: 40vh;
+}
+
+/* Experience the Future of Work Today   */
+
+.experience-section {
+  height: 50vh;
+  background-color: rgba(217, 217, 217, 0.1);
+  padding: 2rem;
+}
+
+.exheading {
+  text-align: center;
+  height: 15vh;
+}
+button {
+  display: block;
+  /* adjust the width as needed */
+  margin: 0 auto;
+
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+  position: relative;
+  border-radius: 5px;
+  background-color: #1361f5;
+  border: none;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 10px 27px;
+
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+}
+
+.exptext {
+  text-align: center;
+  height: 20vh;
+}
+
+/* Empower Your Business with Free Resources  */
+
+.empower-your-business {
+  position: relative;
+  font-size: 32px;
+  letter-spacing: -1px;
+  line-height: 50px;
+  font-family: var(--font-inter);
+  color: #1d1d1d;
+  text-align: center;
+}
+
+/* resource block card  */
+
+#resource-blockk {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.small-badge {
+  color: var(--blue-base, #004ce6);
+  font-size: 12px;
+  text-align: center;
+  gap: 15px;
+  display: flex;
+}
+.small-badge p {
+  color: var(--blue-base, #004ce6);
+  font-size: 12px;
+  text-align: center;
+  padding: 5px;
+  font-weight: bold;
+  gap: 15px;
+  border-radius: 5px;
+  background: rgba(19, 97, 245, 0.1);
+
+  display: flex;
+}
+
+.small-badge h4 {
+  color: #223140;
+  font-size: 18px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px;
+}
+.small-badeg-info h5 {
+  color: #094bca;
+  font-size: 16px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.blockk {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.card-text {
+  padding: 10px;
+}
+
+/* footer  */
+.icon {
+  display: flex;
+}
+
+.footer-box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background: rgba(217, 217, 217, 0.1);
+  padding: 15px;
+}
+
+.footer-blog {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 20px;
+  border-radius: 10px;
+}
+.footer-blog img {
+  width: 157.196px;
+  height: 105px;
+}
+
+.blog-content {
+  display: flex;
+  width: 370px;
+  height: 105px;
+  flex-shrink: 0;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+ 
+  flex-shrink: 0;
+}
+.blog-text {
+  color: #535558;
+  font-size: 14px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  margin-left: 30px;
+}
